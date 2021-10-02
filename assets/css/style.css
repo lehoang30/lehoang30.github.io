@@ -571,9 +571,7 @@ footer .modal-help {
 }
 /* pc */
 @media (min-width: 1024px) {
-  h2 {
-    color: rgb(33, 18, 243);
-  }
+
   #mobilemenu {
     display: none;
   }
