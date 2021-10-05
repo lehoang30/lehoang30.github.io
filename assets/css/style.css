@@ -689,6 +689,7 @@ trên mobile và tablet thì click giống hover trên pc
   }
   .submit-form-btn {
     padding: 15px 15px;
+    -webkit-appearance: none;
   }
   .contact-info {
     line-height: 2;
