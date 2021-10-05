@@ -171,6 +171,7 @@ h3 > p{
 #slider .text-description {
   font-weight: bolder;
   font-size: 15px;
+  text-shadow: 0 0 2px black; // đổ bóng cho text
 }
 #content {
   margin-top: 46px;
@@ -570,14 +571,14 @@ footer .modal-help {
   transform: translateY(-50%);
 }
 /* pc */
-@media (min-width: 1024px) {
+@media (min-width: 64em) {
 
   #mobilemenu {
     display: none;
   }
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 63.9375em) {
   .js-buy-ticket.mobile-full-width {
     padding: 13px 15px;
   }
@@ -599,7 +600,7 @@ footer .modal-help {
 /* BREAKPOINT */
 /* tablet */
 
-@media (min-width: 741px) and (max-width: 1023px) {
+@media (min-width: 46.3125em) and (max-width: 63.9375em) {
   .tour-destination {
     margin-top: 40px;
     margin-bottom: 50px;
@@ -645,7 +646,7 @@ footer .modal-help {
 trên mobile và tablet thì click giống hover trên pc
 
 */
-@media (max-width: 740px) {
+@media (max-width: 46.1875em) {
   #header {
     overflow: hidden;
   }
